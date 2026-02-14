@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GreenStitch</title>
+
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.logo {
+  width: 200px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0.3;}
+  100% {opacity: 1;}
+}
+</style>
+
+<script>
+setTimeout(function(){
+   window.location.href = "https://sites.google.com/your-site-link";
+}, 3000);
+</script>
+
+</head>
+
+<body>
+<img src="logo.png" class="logo">
+</body>
+</html>
